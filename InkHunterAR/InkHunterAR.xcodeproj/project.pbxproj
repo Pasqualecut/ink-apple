@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2110DD8D292E5205007A1B36 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 2110DD8C292E5205007A1B36 /* FocusEntity */; };
+		21BFAB192928F2EC00CCA3AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BFAB182928F2EC00CCA3AB /* AppDelegate.swift */; };
+		21BFAB1D2928F2EC00CCA3AB /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 21BFAB1C2928F2EC00CCA3AB /* Experience.rcproject */; };
+		21BFAB1F2928F2ED00CCA3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BFAB1E2928F2ED00CCA3AB /* Assets.xcassets */; };
+		21BFAB222928F2ED00CCA3AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BFAB212928F2ED00CCA3AB /* Preview Assets.xcassets */; };
+		21BFAB2C2928F2EE00CCA3AB /* InkHunterARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BFAB2B2928F2EE00CCA3AB /* InkHunterARTests.swift */; };
+		21BFAB362928F2EE00CCA3AB /* InkHunterARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BFAB352928F2EE00CCA3AB /* InkHunterARUITests.swift */; };
+		21BFAB382928F2EE00CCA3AB /* InkHunterARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BFAB372928F2EE00CCA3AB /* InkHunterARUITestsLaunchTests.swift */; };
+		21BFAB452928F34500CCA3AB /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BFAB442928F34500CCA3AB /* RootTabView.swift */; };
+		21BFAB472928F37600CCA3AB /* AR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BFAB462928F37600CCA3AB /* AR.swift */; };
+		21BFAB492928F38D00CCA3AB /* MyTattoos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BFAB482928F38D00CCA3AB /* MyTattoos.swift */; };
+		21BFAB4B2928F3AA00CCA3AB /* TattoosGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BFAB4A2928F3AA00CCA3AB /* TattoosGallery.swift */; };
+		21BFAB4D2928F3C600CCA3AB /* MyPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BFAB4C2928F3C600CCA3AB /* MyPhotos.swift */; };
+		21BFAB4F2928F3D300CCA3AB /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BFAB4E2928F3D300CCA3AB /* CameraView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21BFAB282928F2EE00CCA3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21BFAB0D2928F2EC00CCA3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21BFAB142928F2EC00CCA3AB;
+			remoteInfo = InkHunterAR;
+		};
+		21BFAB322928F2EE00CCA3AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21BFAB0D2928F2EC00CCA3AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21BFAB142928F2EC00CCA3AB;
+			remoteInfo = InkHunterAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21BFAB152928F2EC00CCA3AB /* InkHunterAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InkHunterAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BFAB182928F2EC00CCA3AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21BFAB1C2928F2EC00CCA3AB /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		21BFAB1E2928F2ED00CCA3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21BFAB212928F2ED00CCA3AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21BFAB272928F2EE00CCA3AB /* InkHunterARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InkHunterARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BFAB2B2928F2EE00CCA3AB /* InkHunterARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkHunterARTests.swift; sourceTree = "<group>"; };
+		21BFAB312928F2EE00CCA3AB /* InkHunterARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InkHunterARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BFAB352928F2EE00CCA3AB /* InkHunterARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkHunterARUITests.swift; sourceTree = "<group>"; };
+		21BFAB372928F2EE00CCA3AB /* InkHunterARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkHunterARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21BFAB442928F34500CCA3AB /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		21BFAB462928F37600CCA3AB /* AR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AR.swift; sourceTree = "<group>"; };
+		21BFAB482928F38D00CCA3AB /* MyTattoos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTattoos.swift; sourceTree = "<group>"; };
+		21BFAB4A2928F3AA00CCA3AB /* TattoosGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TattoosGallery.swift; sourceTree = "<group>"; };
+		21BFAB4C2928F3C600CCA3AB /* MyPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPhotos.swift; sourceTree = "<group>"; };
+		21BFAB4E2928F3D300CCA3AB /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21BFAB122928F2EC00CCA3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2110DD8D292E5205007A1B36 /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BFAB242928F2EE00CCA3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BFAB2E2928F2EE00CCA3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21BFAB0C2928F2EC00CCA3AB = {
+			isa = PBXGroup;
+			children = (
+				21BFAB172928F2EC00CCA3AB /* InkHunterAR */,
+				21BFAB2A2928F2EE00CCA3AB /* InkHunterARTests */,
+				21BFAB342928F2EE00CCA3AB /* InkHunterARUITests */,
+				21BFAB162928F2EC00CCA3AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21BFAB162928F2EC00CCA3AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21BFAB152928F2EC00CCA3AB /* InkHunterAR.app */,
+				21BFAB272928F2EE00CCA3AB /* InkHunterARTests.xctest */,
+				21BFAB312928F2EE00CCA3AB /* InkHunterARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21BFAB172928F2EC00CCA3AB /* InkHunterAR */ = {
+			isa = PBXGroup;
+			children = (
+				21BFAB182928F2EC00CCA3AB /* AppDelegate.swift */,
+				21BFAB442928F34500CCA3AB /* RootTabView.swift */,
+				21BFAB462928F37600CCA3AB /* AR.swift */,
+				21BFAB482928F38D00CCA3AB /* MyTattoos.swift */,
+				21BFAB4A2928F3AA00CCA3AB /* TattoosGallery.swift */,
+				21BFAB4C2928F3C600CCA3AB /* MyPhotos.swift */,
+				21BFAB4E2928F3D300CCA3AB /* CameraView.swift */,
+				21BFAB1C2928F2EC00CCA3AB /* Experience.rcproject */,
+				21BFAB1E2928F2ED00CCA3AB /* Assets.xcassets */,
+				21BFAB202928F2ED00CCA3AB /* Preview Content */,
+			);
+			path = InkHunterAR;
+			sourceTree = "<group>";
+		};
+		21BFAB202928F2ED00CCA3AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				21BFAB212928F2ED00CCA3AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21BFAB2A2928F2EE00CCA3AB /* InkHunterARTests */ = {
+			isa = PBXGroup;
+			children = (
+				21BFAB2B2928F2EE00CCA3AB /* InkHunterARTests.swift */,
+			);
+			path = InkHunterARTests;
+			sourceTree = "<group>";
+		};
+		21BFAB342928F2EE00CCA3AB /* InkHunterARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21BFAB352928F2EE00CCA3AB /* InkHunterARUITests.swift */,
+				21BFAB372928F2EE00CCA3AB /* InkHunterARUITestsLaunchTests.swift */,
+			);
+			path = InkHunterARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21BFAB142928F2EC00CCA3AB /* InkHunterAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BFAB3B2928F2EE00CCA3AB /* Build configuration list for PBXNativeTarget "InkHunterAR" */;
+			buildPhases = (
+				21BFAB112928F2EC00CCA3AB /* Sources */,
+				21BFAB122928F2EC00CCA3AB /* Frameworks */,
+				21BFAB132928F2EC00CCA3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InkHunterAR;
+			packageProductDependencies = (
+				2110DD8C292E5205007A1B36 /* FocusEntity */,
+			);
+			productName = InkHunterAR;
+			productReference = 21BFAB152928F2EC00CCA3AB /* InkHunterAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21BFAB262928F2EE00CCA3AB /* InkHunterARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BFAB3E2928F2EE00CCA3AB /* Build configuration list for PBXNativeTarget "InkHunterARTests" */;
+			buildPhases = (
+				21BFAB232928F2EE00CCA3AB /* Sources */,
+				21BFAB242928F2EE00CCA3AB /* Frameworks */,
+				21BFAB252928F2EE00CCA3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21BFAB292928F2EE00CCA3AB /* PBXTargetDependency */,
+			);
+			name = InkHunterARTests;
+			productName = InkHunterARTests;
+			productReference = 21BFAB272928F2EE00CCA3AB /* InkHunterARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21BFAB302928F2EE00CCA3AB /* InkHunterARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BFAB412928F2EE00CCA3AB /* Build configuration list for PBXNativeTarget "InkHunterARUITests" */;
+			buildPhases = (
+				21BFAB2D2928F2EE00CCA3AB /* Sources */,
+				21BFAB2E2928F2EE00CCA3AB /* Frameworks */,
+				21BFAB2F2928F2EE00CCA3AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21BFAB332928F2EE00CCA3AB /* PBXTargetDependency */,
+			);
+			name = InkHunterARUITests;
+			productName = InkHunterARUITests;
+			productReference = 21BFAB312928F2EE00CCA3AB /* InkHunterARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21BFAB0D2928F2EC00CCA3AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					21BFAB142928F2EC00CCA3AB = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					21BFAB262928F2EE00CCA3AB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 21BFAB142928F2EC00CCA3AB;
+					};
+					21BFAB302928F2EE00CCA3AB = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 21BFAB142928F2EC00CCA3AB;
+					};
+				};
+			};
+			buildConfigurationList = 21BFAB102928F2EC00CCA3AB /* Build configuration list for PBXProject "InkHunterAR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21BFAB0C2928F2EC00CCA3AB;
+			packageReferences = (
+				2110DD8B292E5205007A1B36 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = 21BFAB162928F2EC00CCA3AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21BFAB142928F2EC00CCA3AB /* InkHunterAR */,
+				21BFAB262928F2EE00CCA3AB /* InkHunterARTests */,
+				21BFAB302928F2EE00CCA3AB /* InkHunterARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21BFAB132928F2EC00CCA3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BFAB222928F2ED00CCA3AB /* Preview Assets.xcassets in Resources */,
+				21BFAB1F2928F2ED00CCA3AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BFAB252928F2EE00CCA3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BFAB2F2928F2EE00CCA3AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21BFAB112928F2EC00CCA3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BFAB192928F2EC00CCA3AB /* AppDelegate.swift in Sources */,
+				21BFAB4B2928F3AA00CCA3AB /* TattoosGallery.swift in Sources */,
+				21BFAB452928F34500CCA3AB /* RootTabView.swift in Sources */,
+				21BFAB4D2928F3C600CCA3AB /* MyPhotos.swift in Sources */,
+				21BFAB472928F37600CCA3AB /* AR.swift in Sources */,
+				21BFAB1D2928F2EC00CCA3AB /* Experience.rcproject in Sources */,
+				21BFAB492928F38D00CCA3AB /* MyTattoos.swift in Sources */,
+				21BFAB4F2928F3D300CCA3AB /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BFAB232928F2EE00CCA3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BFAB2C2928F2EE00CCA3AB /* InkHunterARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BFAB2D2928F2EE00CCA3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BFAB382928F2EE00CCA3AB /* InkHunterARUITestsLaunchTests.swift in Sources */,
+				21BFAB362928F2EE00CCA3AB /* InkHunterARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21BFAB292928F2EE00CCA3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21BFAB142928F2EC00CCA3AB /* InkHunterAR */;
+			targetProxy = 21BFAB282928F2EE00CCA3AB /* PBXContainerItemProxy */;
+		};
+		21BFAB332928F2EE00CCA3AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21BFAB142928F2EC00CCA3AB /* InkHunterAR */;
+			targetProxy = 21BFAB322928F2EE00CCA3AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21BFAB392928F2EE00CCA3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21BFAB3A2928F2EE00CCA3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21BFAB3C2928F2EE00CCA3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InkHunterAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BYRVKNC9N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fed.InkHunterAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21BFAB3D2928F2EE00CCA3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"InkHunterAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 2BYRVKNC9N;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fed.InkHunterAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21BFAB3F2928F2EE00CCA3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BYRVKNC9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fed.InkHunterARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InkHunterAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InkHunterAR";
+			};
+			name = Debug;
+		};
+		21BFAB402928F2EE00CCA3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BYRVKNC9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fed.InkHunterARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InkHunterAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/InkHunterAR";
+			};
+			name = Release;
+		};
+		21BFAB422928F2EE00CCA3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BYRVKNC9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fed.InkHunterARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InkHunterAR;
+			};
+			name = Debug;
+		};
+		21BFAB432928F2EE00CCA3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BYRVKNC9N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Fed.InkHunterARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InkHunterAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21BFAB102928F2EC00CCA3AB /* Build configuration list for PBXProject "InkHunterAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BFAB392928F2EE00CCA3AB /* Debug */,
+				21BFAB3A2928F2EE00CCA3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21BFAB3B2928F2EE00CCA3AB /* Build configuration list for PBXNativeTarget "InkHunterAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BFAB3C2928F2EE00CCA3AB /* Debug */,
+				21BFAB3D2928F2EE00CCA3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21BFAB3E2928F2EE00CCA3AB /* Build configuration list for PBXNativeTarget "InkHunterARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BFAB3F2928F2EE00CCA3AB /* Debug */,
+				21BFAB402928F2EE00CCA3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21BFAB412928F2EE00CCA3AB /* Build configuration list for PBXNativeTarget "InkHunterARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BFAB422928F2EE00CCA3AB /* Debug */,
+				21BFAB432928F2EE00CCA3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2110DD8B292E5205007A1B36 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2110DD8C292E5205007A1B36 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2110DD8B292E5205007A1B36 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 21BFAB0D2928F2EC00CCA3AB /* Project object */;
+}
